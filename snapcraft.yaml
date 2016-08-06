@@ -1,0 +1,16 @@
+name: hello-node-snap
+version: "1.0.0"
+summary: A simple hello world command
+description: A command that simply prints hello world. Used for a tutorial.
+confinement: strict
+
+apps:
+  hello-node-snap:
+    command: bin/hello-node-snap
+    plugs: [network]
+
+parts:
+  hello-node-snap:
+    plugin: nodejs
+    node-packages:
+      - hello-node-snap

@@ -1,0 +1,19 @@
+{
+  "name": "hello-node-snap",
+  "version": "1.0.1",
+  "description": "A command that simply prints hello world. Used for a tutorial.",
+  "main": "bin/hello-node-snap",
+  "author": "Brian Douglass",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhdouglass/hello-node-snap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bhdouglass/hello-node-snap/issues"
+  },
+  "homepage": "https://github.com/bhdouglass/hello-node-snap#readme",
+  "bin": {
+    "hello-node-snap": "bin/hello-node-snap"
+  }
+}

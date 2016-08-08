@@ -1,7 +1,7 @@
 name: hello-node-snap
-version: "1.0.0"
+version: "1.0.2"
 summary: A simple hello world command
-description: A command that simply prints hello world. Used for a tutorial.
+description: A command that simply prints hello world. Used for a tutorial: http://blog.bhdouglass.com/nodejs/snap/2016/08/06/packaging-nodejs-projects-as-snaps.html
 confinement: strict
 
 apps:

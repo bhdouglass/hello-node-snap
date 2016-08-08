@@ -1,7 +1,7 @@
 {
   "name": "hello-node-snap",
-  "version": "1.0.1",
-  "description": "A command that simply prints hello world. Used for a tutorial.",
+  "version": "1.0.2",
+  "description": "A command that simply prints hello world. Used for a tutorial: http://blog.bhdouglass.com/nodejs/snap/2016/08/06/packaging-nodejs-projects-as-snaps.html",
   "main": "bin/hello-node-snap",
   "author": "Brian Douglass",
   "license": "GPL-3.0",
